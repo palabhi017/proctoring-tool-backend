@@ -1,11 +1,11 @@
 {
   "name": "proctor-backend",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "app/server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node app/server.js",
+    "dev": "nodemon app/server.js"
   },
   "dependencies": {
     "cloudinary": "^1.32.0",
